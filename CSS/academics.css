@@ -1,0 +1,85 @@
+section.fee {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+section.fee .container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+section.fee .container .img-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.fee .container .img-con img {
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+    section.fee .container {
+        width: 98%;
+    }
+
+    section.fee .container .img-con img {
+        width: 100%;
+    }
+}
+
+section.rule {
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
+section.rule .container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+section.rule .container .rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+section.rule .container .rules .point {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background: rgba(76, 240, 164, .3);
+    color: rgb(58, 57, 57);
+    border-bottom: 1px solid rgb(58, 57, 57);
+}
+
+section.topper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.topper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+
+section.topper .container img {
+    width: 60%;
+}
+
+@media (max-width: 700px) {
+    section.topper .container img {
+        width: 90%;
+    }
+}

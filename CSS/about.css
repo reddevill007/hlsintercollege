@@ -1,0 +1,319 @@
+/*  <=========== About Section CSS ===========>  */
+section.about{
+    width: 100vw;
+    /* background-color: white; */
+    background-image: linear-gradient(to left bottom, #ffffff, #e8eff6, #cbe3e5, #b8d4c8, #b8c2a4);
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+section.about .about-cont .about-det .heading{
+    text-align: left;
+}
+
+section.about .about-cont .about-det .heading h1 span{
+    background: rgba(76, 240, 164, .7);
+}
+
+section.about .about-cont .about-det p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+section.about .about-cont .about-det .about-icon{
+    margin-top: 20px;
+}
+
+section.about .about-cont .about-det .about-icon .icon-box{
+    display: flex;
+    padding: 5px 0;
+}
+
+section.about .about-cont .about-det .about-icon .icon-box .icon{
+    margin-right: 13px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #159957;
+    border-radius: 3px;
+}
+
+
+section.about .about-cont .about-det .about-icon .icon-box .icon i{
+    font-size: 25px; 
+    color: #fff;
+}
+
+section.about .about-cont .about-det .about-icon .icon-box p{
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+section.about .about-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+section.about .about-cont .about-det{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.about .about-cont .about-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.about .about-cont .about-img img{
+    width: 75%;
+    animation: anime 6s infinite linear;
+}
+
+@media (max-width: 980px) {
+
+    section.about{
+        padding-top: 20px;
+    }
+    
+    section.about .about-cont{
+        flex-direction: column;
+    }
+
+    section.about .about-cont .about-det,
+    section.about .about-cont .about-img{
+        width: 100%;
+    }
+
+}
+
+/*  <=========== Image Animation ===========>  */
+@keyframes anime {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(-30px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+
+    75%{
+        transform: translateY(30px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+/*  <=========== About Stat CSS ===========>  */
+section.stats{
+    background: linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)), url(../IMAGE/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 30vh;
+}
+
+section.stats .stat-cont{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+section.stats .stat-cont .stat-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 30px;
+}
+
+section.stats .stat-cont .stat-box h3{
+    text-align: center;
+    color: #159957;
+}
+
+section.stats .stat-cont .stat-box .stat-icon{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+section.stats .stat-cont .stat-box .stat-icon i{
+    font-size: 65px;
+    color: #159957;
+}
+
+
+/*  <=========== About Benifits CSS ===========>  */
+section.benifit{
+    padding: 50px 0;
+    min-height: 100vh;
+    width: 100vw;
+    background: rgba(231, 247, 239, 0.4);
+}
+
+section.benifit .benifit-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.benifit .benifit-cont .benifit-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.benifit .benifit-cont .benifit-img img{
+    width: 70%;
+}
+
+section.benifit .benifit-cont .benifit-content{
+    width: 50%;
+}
+
+section.benifit .benifit-cont .benifit-content h1 {
+    font-size: 35px;
+    color: #159957;
+    margin-bottom: 15px;
+}
+
+section.benifit .benifit-cont .benifit-content .benifit-container{
+    padding: 10px;
+}
+
+section.benifit .benifit-cont .benifit-content .benifit-box{
+    min-height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+section.benifit .benifit-cont .benifit-content .benifit-box .benifit-icon{
+    height: 70px;
+    min-width: 70px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.benifit .benifit-cont .benifit-content .benifit-box .benifit-icon i{
+    font-size: 35px;
+    color: #159957;
+}
+
+section.benifit .benifit-cont .benifit-content .benifit-box .benif-details h3{
+    color: #159957;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+
+    section.benifit .benifit-cont .benifit-img{
+        display: none;
+    }
+
+    section.benifit .benifit-cont .benifit-content{
+        width: 100%;
+    }
+
+}
+
+section.msg {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+section.msg .container .msg-box {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.msg .container .msg-box.rev {
+    flex-direction: row-reverse;
+}
+
+
+section.msg .container .msg-box .text-con,
+section.msg .container .msg-box .img-con {
+    width: 50%;
+    height: 100%;
+}
+
+section.msg .container .msg-box .text-con p {
+    line-height: 1.5;
+    color: #4d4c4c;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+section.msg .container .msg-box .text-con p span {
+    background: rgba(76, 240, 164, .3);
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(58, 57, 57);
+    padding: 3px 6px;
+}
+
+section.msg .container .msg-box .img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.msg .container .msg-box .img-con img {
+    width: 75%;
+    border-radius: 10px;
+    border: 2px solid #159957
+}
+
+@media only screen and (max-width: 1000px) {
+    section.msg .container .msg-box.rev,
+    section.msg .container .msg-box {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    section.msg .container .msg-box .text-con,
+    section.msg .container .msg-box .img-con {
+        width: 100%;
+    }
+}
